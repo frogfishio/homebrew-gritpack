@@ -1,0 +1,8 @@
+[gritpack]
+name=Gritpack
+baseurl=https://frogfishio.github.io/homebrew-gritpack/rpm/$basearch
+enabled=1
+gpgcheck=0
+repo_gpgcheck=1
+gpgkey=https://frogfishio.github.io/homebrew-gritpack/repository-signing-key.asc
+metadata_expire=1h

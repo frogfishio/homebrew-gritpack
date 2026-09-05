@@ -1,0 +1,6 @@
+Types: deb
+URIs: https://frogfishio.github.io/homebrew-gritpack/apt
+Suites: stable
+Components: main
+Architectures: amd64 arm64
+Signed-By: /etc/apt/keyrings/gritpack.gpg
