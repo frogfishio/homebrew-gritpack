@@ -1,8 +1,9 @@
 # Gritpack
 
 This is the official public binary distribution repository for Gritpack. It
-contains the Homebrew tap and the generated APT and RPM repositories; Gritpack
-source code is maintained separately.
+contains immutable release assets and the generated APT and RPM repositories;
+Gritpack source code is maintained separately. The Formula-only Homebrew tap
+is [`frogfishio/homebrew-gritpack-tap`](https://github.com/frogfishio/homebrew-gritpack-tap).
 
 Gritpack is currently available for macOS Apple Silicon, Linux AMD64, and Linux
 ARM64. The same executable provides the command-line client, package server,
@@ -10,15 +11,18 @@ private Cargo registry, and compiler-facing interfaces.
 
 ## Homebrew on macOS Apple Silicon
 
+Do not tap this distribution repository: its retained Linux packages make it
+intentionally large. Use the lean Formula-only tap:
+
 ```sh
-brew tap frogfishio/gritpack
-brew trust --formula frogfishio/gritpack/gritpack
-brew install --formula frogfishio/gritpack/gritpack
+brew tap frogfishio/gritpack-tap
+brew trust --formula frogfishio/gritpack-tap/gritpack
+brew install --formula frogfishio/gritpack-tap/gritpack
 gritpack --version
 ```
 
 Upgrade later with
-`brew upgrade --formula frogfishio/gritpack/gritpack`.
+`brew upgrade --formula frogfishio/gritpack-tap/gritpack`.
 
 ## APT on Debian or Ubuntu
 
