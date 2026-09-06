@@ -13,11 +13,12 @@ private Cargo registry, and compiler-facing interfaces.
 ```sh
 brew tap frogfishio/gritpack
 brew trust --formula frogfishio/gritpack/gritpack
-brew install gritpack
+brew install --formula frogfishio/gritpack/gritpack
 gritpack --version
 ```
 
-Upgrade later with `brew upgrade gritpack`.
+Upgrade later with
+`brew upgrade --formula frogfishio/gritpack/gritpack`.
 
 ## APT on Debian or Ubuntu
 
