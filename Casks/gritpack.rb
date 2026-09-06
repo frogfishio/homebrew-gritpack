@@ -1,6 +1,6 @@
 cask "gritpack" do
-  version "1.0.3"
-  sha256 "37cf706963964ebd6030bc0c9b96ef49197113d1d2a2e4e4ff44162576a4000d"
+  version "1.1.0"
+  sha256 "4cb87e54311f9e72b3ce7813240c79cde29e3e13814085240f7ac8d448bc03c8"
 
   url "https://github.com/frogfishio/homebrew-gritpack/releases/download/v#{version}/gritpack-#{version}-aarch64-apple-darwin.tar.gz"
   name "Gritpack"
