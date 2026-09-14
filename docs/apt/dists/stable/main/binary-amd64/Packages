@@ -134,3 +134,20 @@ Description: Multi-language package manager and package hub
  Gritpack is a headless, polyglot package client and server with native
  Capsule storage and compatibility adapters for existing ecosystems.
 
+Package: gritpack
+Version: 1.2.5-1271
+Architecture: amd64
+Maintainer: Frogfish <packages@frogfish.io>
+Depends: libc6 (>= 2.31), libgcc-s1
+Filename: pool/main/g/gritpack/gritpack_1.2.5-1271_amd64.deb
+Size: 12833596
+MD5sum: 5e9fc22ba0298ab372b5d2f057aa02ff
+SHA1: f9ea4a4c3202b64c7983e4d687a8a616fb9f3efc
+SHA256: 703524bd66eb71eb950b779cb70ee14294f4d5d2c29f7e7761f7e2b7e5b9fe22
+Section: devel
+Priority: optional
+Homepage: https://frogfish.io
+Description: Multi-language package manager and package hub
+ Gritpack is a headless, polyglot package client and server with native
+ Capsule storage and compatibility adapters for existing ecosystems.
+
